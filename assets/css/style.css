@@ -25,6 +25,11 @@ li{
 a {
     text-decoration: none;
 }
+body{
+    background: #FDFEFF;
+
+
+}
 
 :root{
     --white : #fff;
@@ -35,110 +40,123 @@ a {
 .container {
     max-width: 1440px;
 } 
-.left__side {
-    position: relative;
-}
-.BG__image{
-    max-width: 100%;
-    position: relative;
-}
-.BG__image img {
-    height: 100vh;  
-    width: 100%;
-}
-.BG__image:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5); 
-    z-index: 2;
-}
+/* NAVBAR START */
 
-.login__logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 3;
+
+.bg-light{
+    --bs-bg-opacity: 0;
 }
-
- .right__side{
-    background-color: #fff;
- }
- 
- .form__section{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh;  
- }
- .form__section form{
-    width: 60%;
- }
-
- .form__section h2{
-    color:#222;
-    font-size: 34px;
-    font-weight: 700;
-    line-height:51px;
-    letter-spacing: 0.68px;
-    padding-bottom: 14px;
-    
- }
- .star{
-    color: #FF4F60;
-    font-size: 18px;
-    font-weight: 600;
- }
- .account{
-    color: #94959B;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0.36px;
-    padding-bottom: 40px;
- }
- .text__green{
-    color: #037D41;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 0.36px;
- }
- .text__black{
-    color: #222;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 0.36px;
- }
- .form-check{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 20px;
- }
-
- .form-control{
-    padding: 10px;
-    background-color:#F6F6F6;
-    border: none;
- }
-.btn-primary {
-    background-color: #037D41;
-    border: 1px solid #037D41;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 0.36px;
-    padding: 12px;
+.collapse{
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.nav-item i{
+    width: 20px;
+    height: 20px;
+}
+.btn-success {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px; 
+    padding: 18px 20px;
 
 }
-.btn-primary:hover{
+.btn-success:hover{
     background-color:#fff ;
     color:#037D41;
     border: 1px solid #037D41;
 
 }
+/* NAVBAR END */
+
+.search__section{
+    padding: 84px 322px;
+    background-color:#D9EEE4;
+}
+.form-control{
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    background: #FFF;
+}
+.input-group{
+    width: 80%;
+
+}
+.text{
+    color: #9C9C9C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.btn-secondary{
+    background-color: transparent;
+    border: none;
+    color: #666666;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    display: inline-block;
+}
+.btn-secondary:hover{
+    background-color: transparent;
+    color: #666666;
+    transition: none;
+}
+.dropdown-item{
+    background-color: transparent;
+}
+/* HEADER START */
+.header__section{
+   
+
+}
+.header__area{
+    background-color: #FFF;
+    border-radius: 22px;
+    background: #FFF;
+    box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.05);
+    margin: 80px 0px;
+    padding: 41px 44px;
+    /* width: 1296px; */
+    align-items: center;
+    justify-content: center;
+}
+.browse__content{
+    background-color: #037D41;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+.category{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 21px 0 25px 0;
+}
+.category__text{
+    color: #12151A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px; 
+    letter-spacing: 0.3px;
+    padding-right: 25px;
+}
+.header__img img{
+    width: 100%;
+}
 
 
+
+/* HEADER END */

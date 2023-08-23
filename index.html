@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turkey__Trademarket__Login Form</title>
+    <title>Turkey__Trademarket__Home__Page</title>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,81 +17,180 @@
 
 </head>
 <body>
-<!-- Login Form Start -->
-<div class="login__form__section">
+<!-- Navbar Start Here-->
+<div class="navbar__section">
     <div class="container">
-        <div class="login__area">
-            <div class="row">
+        <div class="navbar__area">
+            <!-- bootstarp class -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img src="./assets/images/main__logo.png" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
 
-                <div class="col-lg-6 p-0">
-                    <div class="left__side">
-                        <div class="BG__image">
-                            <img class="img-fluid" src="./assets/images/Login__BG.png" alt="BG">
-                        </div>
-                        <div class="login__logo">
-                            <img src="./assets/images/login__logo.png" alt="Logo">
-                        </div>
-                    </div>
-    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                         <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i>   Shopping Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-comment-dots"></i>     Messages</a>
+                    </li>
+                </ul>
 
+            <form class="d-flex">
+                <button class="btn btn-success" type="submit"><i class="fa-solid fa-user"></i>    Sign In / Register</button>
+            </form>
+
+            </div>
+            </div>
+            </nav>
+            </div>
+            <!-- bootstarp class -->
+        </div>
+    </div>
+</div>
+<!-- Navbar End Here-->
+<!-- Search Bar Start Here-->
+<div class="search__section">
+    <div class="container">
+        <div class="search__area">
+            <div class="search__menu">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                             <a class="nav-link" href="#">Help<i class="fa-solid fa-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">English<i class="fa-solid fa-chevron-down"></i></a>
+                       </li>
+                   </ul>
                 </div>
-                <div class="col-lg-6 p-0">
-                    <div class="right__side">
-                        <div class="form__section">
-                            <form>
-                                <h2>Login</h2>
-                                <p class="account">Don’t have an account? <span class="text__green">Register</span></p>
-                                <div class="mb-3">
-                                  <label for="email" class="form-label text__black">Email <span class="star">*</span></label>
-                                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
-                                </div>
-        
-                                <div class="mb-3">
-                                  <label for="password" class="form-label text__black">Password <span class="star">*</span></label>
-                                  <input type="password" class="form-control" id="password" placeholder="Password">
-                                </div>
-        
-                                <div class="mb-3 form-check">
-
-                                 <div class="mt-4">
-                                    <input type="checkbox" class="form-check-input" id="checkbox">
-                                    <label class="form-check-label text__black" for="checkbox">Remember me</label>
-                                 </div>
-                                  <p class="text__green mt-4">Forgot Password?</p>
-                                </div>
-
-                                <div class="mt-4">
-                                    <a href="#"><button type="submit" class="btn btn-primary w-100">Login</button></a>
-                                </div>
-                              </form>
-                        </div>
-        
-                    </div>
-    
-
-                </div>
-    
     
 
             </div>
 
 
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="What do you need?" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-success search-custom" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i>  Search</button>
+                  </div>
         </div>
-
+        </div>
     </div>
-
 </div>
 
+<!-- Search Bar End Here-->
+
+<!-- Header Section Start Here-->
+<div class="header__section">
+    <div class="container">
+        <div class="header__area">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="browse">
+                        <p class="browse__content">Browse Categories</p>
+                    </div>
+
+                    <div class="category">
+                        <div class="category__img">
+                            <img src="./assets/images/furniture.png" alt="pic">
+                        </div>
+                        <div class="category__text">
+                            <p>Furniture & Home <br class="d-none d-lg-block"> Decor</p>
+                        </div>
+                        <div class="category__icon">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img src="./assets/images/electronic.png" alt="pic">
+                        </div>
+                        <div class="category__text">
+                            <p>Electronic  <br class="d-none d-lg-block"> Components</p>
+                        </div>
+                        <div class="category__icon">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img src="./assets/images/construction.png" alt="pic">
+                        </div>
+                        <div class="category__text">
+                            <p>Construction </p>
+                        </div>
+                        <div class="category__icon">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img src="./assets/images/sports.png" alt="pic">
+                        </div>
+                        <div class="category__text">
+                            <p>Sports & Outdoors </p>
+                        </div>
+                        <div class="category__icon">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img src="./assets/images/machinery.png" alt="pic">
+                        </div>
+                        <div class="category__text">
+                            <p>Machinery &  <br class="d-none d-lg-block"> Equipment</p>
+                        </div>
+                        <div class="category__icon">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img src="./assets/images/food.png" alt="pic">
+                        </div>
+                        <div class="category__text">
+                            <p>Food, Household &  <br class="d-none d-lg-block"> Pets</p>
+                        </div>
+                        <div class="category__icon">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
 
 
-<!-- Login Form End -->
+
+                </div>
+
+
+                <div class="col-lg-8">
+                    <div class="header__img">
+                        <img src="./assets/images/Header__BG.png" alt="BG">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header Section End Here-->
 
 
 
-
-
-
-
+<div class="container">
+    <div class="card">
+        <div class="col-6">
+            SOMETHING
+        </div>
+        <div class="col-6">
+            SOMETHING
+        </div>
+    </div>
+</div>
 
 
 
