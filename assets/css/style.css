@@ -140,7 +140,7 @@ body{
     border-radius: 8px;
 }
 .carousel-indicators{
-    bottom: -50px;
+    bottom: -80px;
 
 }
 .carousel-indicators [data-bs-target]{
