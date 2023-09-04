@@ -1,0 +1,152 @@
+/* styles.css */
+
+/* General Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5,h6,p{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root{
+    --white : #fff;
+}
+/* General Styles End */
+
+
+.container {
+    max-width: 1440px;
+} 
+.left__side {
+    position: relative;
+}
+.BG__image{
+    max-width: 100%;
+    position: relative;
+}
+.BG__image img {
+    height: 100vh;  
+    width: 100%;
+}
+.BG__image:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 2;
+}
+
+.login__logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+
+ .right__side{
+    background-color: #fff;
+ }
+ 
+ .form__section{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;  
+ }
+ .form__section form{
+    width: 60%;
+ }
+
+ .form__section h2{
+    color:#222;
+    font-size: 34px;
+    font-weight: 700;
+    line-height:51px;
+    letter-spacing: 0.68px;
+    padding-bottom: 14px;
+    
+ }
+ .star{
+    color: #FF4F60;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .account{
+    color: #94959B;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    padding-bottom: 40px;
+ }
+ .text__green{
+    color: #037D41;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.36px;
+ }
+ .text__black{
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.36px;
+ }
+ .form-check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+ }
+
+ .form-control{
+    padding: 10px;
+    background-color:#F6F6F6;
+    border: none;
+ }
+.btn-primary {
+    background-color: #037D41;
+    border: 1px solid #037D41;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.36px;
+    padding: 12px 40px;
+    margin-top: 40px;
+
+}
+.btn-primary:hover{
+    background-color:#fff ;
+    color:#037D41;
+    border: 1px solid #037D41;
+
+}
+
+.button__parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
