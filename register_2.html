@@ -71,10 +71,12 @@
                                   </div>
 
                                 </div>
+
+                                <label for="number" class="form-label text__black">Phone number <span class="star">*</span></label>
+
                                 <div class="row mb-3">
 
                                     <div class="col-sm-3">
-                                      <label for="number" class="form-label text__black">Phone number <span class="star">*</span></label>
                                       <select input type="select" select id="inputState" class="form-control form-select" >
                                         <option selected>+46</option>
                                         <option>+88</option>
@@ -84,11 +86,14 @@
                                       </select>
                                   </div>
                                   <div class="col-sm-9">
-                                    <label for="Phone number" class="form-label text__black"></label>
+                                    <!-- <label for="Phone number" class="form-label text__black"></label> -->
                                     <input type="number" class="form-control" placeholder="Phone number" id="Phone number">
                                   </div>
 
-                                  <div class="mb-3">
+                                
+                                </div>
+
+                                <div class="mb-3">
                                     <div class="form-check">
                                       <input class="form-check-input" type="checkbox" id="gridCheck">
                                       <label class="form-check-label" for="gridCheck">
@@ -98,23 +103,43 @@
                                     </div>
                                   </div>
 
-
-                                </div>
-
                                 <div class="button__parent">
                                     <a href="./login.html"> <button type="button" class="btn-primary back">Back</button> </a>
-                                    <a href="#"><button type="submit" class="btn btn-primary">Register</button></a>
+                                    <a href="#"><button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button></a>
                                 </div>
-    
-                             
 
                               </form>
 
+ <!-- Button trigger modal -->
+ <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+
+         
                         </div>
         
                     </div>
     
-
                 </div>
 
                 <div class="col-lg-6 p-0">
@@ -127,21 +152,15 @@
                         </div>
                     </div>
     
-
                 </div>
 
-    
-    
-
             </div>
-
 
         </div>
 
     </div>
 
 </div>
-
 
 
 <!-- Register Form End -->
