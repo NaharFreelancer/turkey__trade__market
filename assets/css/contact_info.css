@@ -205,6 +205,39 @@ body{
     justify-content: center;
 
 }
+.form__contact{
+    margin: 60px 0 167px 0;
+    padding: 0 45px;
+}
+.text__black {
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.36px;
+}
+.form-control {
+    padding: 10px;
+    background-color: #F6F6F6;
+    border: none;
+}
+.sub__text{
+    color: #8C8C8C;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.social__text{
+    color:#222;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.44px;
+    margin-bottom: 48px;
+}
+.social__media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* FOOTER SECTION START */
 
