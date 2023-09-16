@@ -206,7 +206,7 @@ body{
     line-height: 150%; 
     letter-spacing: 0.32px;
     padding: 20px 0 35px 0;
-    
+    text-align: justify;
 }
 .sub_content{
     color: #666;
@@ -250,6 +250,7 @@ body{
     line-height: 150%; 
     letter-spacing: 0.32px;
     padding-bottom: 61px;
+    text-align: justify;
 
 
 }
@@ -281,7 +282,7 @@ body{
 
 .footer__menu a{
     color: #666;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 

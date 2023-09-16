@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
    
 }
 
@@ -24,6 +26,7 @@ li{
 
 a {
     text-decoration: none;
+    color: unset;
 }
 body{
     background: #FDFEFF;
@@ -58,20 +61,26 @@ body{
 }
 .btn-success {
     color: #FFF;
+    background-color: #037D41!important;
+    width: unset!important;
     font-size: 16px;
     font-weight: 500;
     line-height: 18px; 
     padding: 18px 20px;
 
 }
+
 .btn-success:hover{
-    background-color:#fff ;
-    color:#037D41;
-    border: 1px solid #037D41;
+    background-color:#fff!important ;
+    color:#037D41!important;
+    border: 1px solid #037D41!important;
 
 }
 .dropdown-toggle::after{
     display: none;
+}
+.dropdown-item:active{
+    background-color: unset;
 }
 /* NAVBAR END */
 
@@ -205,6 +214,7 @@ body{
 .card{
     border: none;
     box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px
 
 
 }
@@ -247,7 +257,7 @@ body{
 
 .footer__menu a{
     color: #666;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 

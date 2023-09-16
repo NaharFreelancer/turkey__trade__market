@@ -7,6 +7,8 @@
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
@@ -44,18 +46,17 @@
                 
                   <!-- Dropdown -->
                   <div class="dropdown">
-                    <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                        Sign In / Register
-                    </a>
-                  
+                    <button class="btn btn-success dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Sign In / Register</button>
+                    
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <li><a class="dropdown-item" href="login.html"><button class="btn btn-success" type="submit">Login</button></a></li>
+                      <li><a class="dropdown-item " href="login.html"> <button class="btn btn-success" type="button">Login</button> </a></li>
                       <li><a class="dropdown-item" href="./register.html">Register as a Buyer</a></li>
                       <li><a class="dropdown-item" href="./register_seller.html">Register as a Seller</a></li>
                     </ul>
                   </div>
                   <!-- Dropdown -->
             </form>
+
 
             </div>
             </div>
@@ -97,7 +98,7 @@
             <div class="header__area">
                 <div class="row">
     
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="browse">
                             <p class="browse__content">Browse Categories</p>
                         </div>
@@ -204,7 +205,7 @@
                     </div>
     
     
-                    <div class="col-lg-9">
+                    <div class="col-lg-8">
                         <!-- <div class="header__img">
                             <img src="./assets/images/Header__BG.png" alt="BG">
                         </div> -->
@@ -218,13 +219,13 @@
                                     </div>
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="./assets/images/Header__BG.png" class="d-block w-100" alt="PIC">
+                                        <img src="./assets/images/Header__BG.png" class="d-block w-100 img-fluid" alt="PIC">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/images/Header__BG.png" class="d-block w-100" alt="PIC">
+                                        <img src="./assets/images/Header__BG.png" class="d-block w-100 img-fluid" alt="PIC">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/images/Header__BG.png" class="d-block w-100" alt="PIC">
+                                        <img src="./assets/images/Header__BG.png" class="d-block w-100 img-fluid" alt="PIC">
                                       </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -246,13 +247,13 @@
                     
                 </div>
 
-
-                <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- Modal -->
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Launch demo modal
     </button>
   
-  <!-- Modal -->
+  
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -269,7 +270,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Modal -->
             </div>
         </div>
@@ -285,92 +286,121 @@
         <div class="container">
             <div class="product__area">
                 <div class="row">
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/nuts.png" class="card-img-top" alt="pic">
+                    <div class="col-lg-4 card_parent">
+                        <a href="./seller_product_info.html">                    
+                            <div class="card">
+                            <img src="./assets/images/nuts.png" class="card-img-top img-fluid" alt="pic">
                             <div class="card-body">
                               <h5 class="card-title">Nuts</h5>
                             </div>
                           </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <a href="./seller_product_info.html">
+                            <div class="card">
+                                <img src="./assets/images/steel.png" class="card-img-top" alt="pic">
+                                <div class="card-body">
+                                  <h5 class="card-title">Steel</h5>
+                                </div>
+                              </div>
+    
+                        </a>
     
                     </div>
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/steel.png" class="card-img-top" alt="pic">
-                            <div class="card-body">
-                              <h5 class="card-title">Steel</h5>
-                            </div>
-                          </div>
+                    <div class="col-lg-4">
+                        <a href="./seller_product_info.html">
+                            <div class="card">
+                                <img src="./assets/images/cloth.png" class="card-img-top" alt="pic">
+                                <div class="card-body">
+                                  <h5 class="card-title">Clothing</h5>
+                                </div>
+                              </div>
+    
+                        </a>
     
                     </div>
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/cloth.png" class="card-img-top" alt="pic">
-                            <div class="card-body">
-                              <h5 class="card-title">Clothing</h5>
-                            </div>
-                          </div>
+
+                    <div class="col-lg-4">
+                        <a href="./seller_product_info.html">
+                            <div class="card">
+                                <img src="./assets/images/furniture-2.png" class="card-img-top" alt="pic">
+                                <div class="card-body">
+                                  <h5 class="card-title">Furniture</h5>
+                                </div>
+                              </div>
+    
+                        </a>
     
                     </div>
+                    <div class="col-lg-4">
+                        <a href="./seller_product_info.html">
+                            <div class="card">
+                                <img src="./assets/images/electronis.png" class="card-img-top" alt="pic">
+                                <div class="card-body">
+                                  <h5 class="card-title">Electronic</h5>
+                                </div>
+                              </div>
+    
+                        </a>
+    
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="./seller_product_info.html">
+                            <div class="card">
+                                <img src="./assets/images/food-2.png" class="card-img-top" alt="pic">
+                                <div class="card-body">
+                                  <h5 class="card-title">Food</h5>
+                                </div>
+                              </div>
+    
+                        </a>
+    
+                    </div>
+
+                    <div class="col-lg-4">
+                        <a href="./seller_product_info.html">
+                            <div class="card">
+                                <img src="./assets/images/silver.png" class="card-img-top" alt="pic">
+                                <div class="card-body">
+                                  <h5 class="card-title">Silver</h5>
+                                </div>
+                              </div>
+    
+                        </a>
+    
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="./seller_product_info.html">
+                            <div class="card">
+                                <img src="./assets/images/gold.png" class="card-img-top" alt="pic">
+                                <div class="card-body">
+                                  <h5 class="card-title">Gold</h5>
+                                </div>
+                              </div>
+    
+                        </a>
+    
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="./seller_product_info.html">
+                            <div class="card">
+                                <img src="./assets/images/diamond.png" class="card-img-top" alt="pic">
+                                <div class="card-body">
+                                  <h5 class="card-title">Diamond</h5>
+                                </div>
+                              </div>
+    
+                        </a>
+    
+                    </div>
+
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/furniture-2.png" class="card-img-top" alt="pic">
-                            <div class="card-body">
-                              <h5 class="card-title">Furniture</h5>
-                            </div>
-                          </div>
-    
-                    </div>
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/electronis.png" class="card-img-top" alt="pic">
-                            <div class="card-body">
-                              <h5 class="card-title">Electronic</h5>
-                            </div>
-                          </div>
-    
-                    </div>
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/food-2.png" class="card-img-top" alt="pic">
-                            <div class="card-body">
-                              <h5 class="card-title">Food</h5>
-                            </div>
-                          </div>
-    
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/silver.png" class="card-img-top" alt="pic">
-                            <div class="card-body">
-                              <h5 class="card-title">Silver</h5>
-                            </div>
-                          </div>
-    
-                    </div>
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/gold.png" class="card-img-top" alt="pic">
-                            <div class="card-body">
-                              <h5 class="card-title">Gold</h5>
-                            </div>
-                          </div>
-    
-                    </div>
-                    <div class="col-lg-4 pe-4">
-                        <div class="card">
-                            <img src="./assets/images/diamond.png" class="card-img-top" alt="pic">
-                            <div class="card-body">
-                              <h5 class="card-title">Diamond</h5>
-                            </div>
-                          </div>
-    
-                    </div>
-                </div>
+                
+                
+                
+               
     
             </div>
         </div>
